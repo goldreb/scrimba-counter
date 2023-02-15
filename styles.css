@@ -46,12 +46,25 @@ button {
     border: 1px solid rgb(86, 3, 3);
 }
 
+
 #increment-btn {
     background: rgb(86, 3, 3);
+}
+
+#increment-btn:hover{
+    background-color:  rgb(248, 144, 144);
+    color: rgb(86, 3, 3);
+    cursor: pointer;
 }
 
 #save-btn {
     background: linen;
     color: rgb(86, 3, 3);
+}
+
+#save-btn:hover{
+    background-color: rgb(6, 148, 164);
+    color: linen;
+    cursor: pointer;
 }
 
